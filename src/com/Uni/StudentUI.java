@@ -5,8 +5,8 @@ import java.awt.*;
 
 public class StudentUI {
     private JPanel panel1;
-    private JButton myCoursesButton;
-    private JButton myProfileButton;
+    private JButton studentCoursesButton;
+    private JButton studentProfileButton;
 
 
     StudentUI() {

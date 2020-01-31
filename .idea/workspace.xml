@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a0897a0-b871-474a-8dc2-d2ee6657b739" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Uni/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Uni/Login.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Uni/StudentUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Uni/StudentUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Uni/StudentUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Uni/StudentUI.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,6 +54,16 @@
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="form" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="GUI_DESIGNER_FORM" value="1" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
@@ -70,6 +82,11 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Uni/StudentUI.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/Uni/Login.form">
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
@@ -102,7 +119,7 @@
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Uni/Home.form">
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
@@ -124,7 +141,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/com/Uni/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/Uni/Login.form" />
         <option value="$PROJECT_DIR$/src/com/Uni/signUpObj.java" />
         <option value="$PROJECT_DIR$/src/com/Uni/Login.java" />
         <option value="$PROJECT_DIR$/src/com/Uni/RegisterForm.form" />
@@ -135,9 +151,10 @@
         <option value="$PROJECT_DIR$/src/com/Uni/LecturerUI.java" />
         <option value="$PROJECT_DIR$/src/com/Uni/Home.java" />
         <option value="$PROJECT_DIR$/src/com/Uni/StudentUI.java" />
-        <option value="$PROJECT_DIR$/src/com/Uni/StudentUI.form" />
-        <option value="$PROJECT_DIR$/src/com/Uni/LecturerUI.form" />
         <option value="$PROJECT_DIR$/src/com/Uni/Home.form" />
+        <option value="$PROJECT_DIR$/src/com/Uni/LecturerUI.form" />
+        <option value="$PROJECT_DIR$/src/com/Uni/StudentUI.form" />
+        <option value="$PROJECT_DIR$/src/com/Uni/Login.form" />
       </list>
     </option>
   </component>
@@ -172,6 +189,13 @@
               <item name="UniManeV3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Uni" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UniManeV3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UniManeV3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Uni" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="e9f4de52:FormNode" />
             </path>
             <path>
               <item name="UniManeV3" type="b2602c69:ProjectViewProjectNode" />
@@ -244,8 +268,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -254,7 +279,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32340425" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32340425" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -282,9 +307,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Uni/LecUI.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Uni/Login.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Uni/signUpObj.java">
@@ -392,9 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Uni/StudentUI.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Uni/StudentUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -415,10 +434,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Uni/Home.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Uni/LecturerUI.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Uni/Home.form">
+    <entry file="file://$PROJECT_DIR$/src/com/Uni/StudentUI.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Uni/Login.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
   </component>
