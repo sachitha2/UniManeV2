@@ -29,5 +29,12 @@ public class StudentUI {
                 StudentProfileUI studentProfileUI = new StudentProfileUI(o);
             }
         });
+        studentCoursesButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                StudentCoursesUI studentCoursesUI = new StudentCoursesUI(o);
+                frame.setVisible(false);
+            }
+        });
     }
 }
