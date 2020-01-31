@@ -12,6 +12,7 @@ public class RegisterForm extends JFrame{
     private JTextField uName;
     private JTextField pass;
     private JTextField pass2;
+    private JList list1;
 
 
     public static DB obj_DB_Connection;
@@ -29,7 +30,7 @@ public class RegisterForm extends JFrame{
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
-        frame.setSize(600,500);
+        frame.setSize(600,600);
         loginButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -41,6 +42,10 @@ public class RegisterForm extends JFrame{
             @Override
             public void actionPerformed(ActionEvent e) {
                 //create sign up part and intent to home
+
+
+                System.out.println("Selected list item"+list1.getSelectedIndex());
+
 
                 if(pass.getText().equals(pass2.getText())){
 
