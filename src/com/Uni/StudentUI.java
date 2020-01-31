@@ -11,7 +11,7 @@ public class StudentUI {
     private JButton studentProfileButton;
 
 
-    StudentUI() {
+    StudentUI(signUpObj o) {
         JFrame frame = new JFrame("StudentUI");
         frame.setContentPane(this.panel1);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -26,7 +26,7 @@ public class StudentUI {
             public void actionPerformed(ActionEvent e) {
                 frame.setVisible(false);
 
-                StudentProfileUI studentProfileUI = new StudentProfileUI();
+                StudentProfileUI studentProfileUI = new StudentProfileUI(o);
             }
         });
     }

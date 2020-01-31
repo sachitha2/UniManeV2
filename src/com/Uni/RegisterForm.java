@@ -55,12 +55,6 @@ public class RegisterForm extends JFrame{
                 }else {
                     JOptionPane.showMessageDialog(null, "Password does not match");
                 }
-
-
-
-
-
-
             }
         });
     }

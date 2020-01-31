@@ -25,7 +25,7 @@ public class Home {
             @Override
             public void actionPerformed(ActionEvent e) {
                 System.out.println("You clicked student button");
-                StudentUI studentUI = new StudentUI();
+                StudentUI studentUI = new StudentUI(o);
                 frame.setVisible(false);
             }
         });
