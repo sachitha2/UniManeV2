@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a0897a0-b871-474a-8dc2-d2ee6657b739" name="Default Changelist" comment="" />
+    <list default="true" id="6a0897a0-b871-474a-8dc2-d2ee6657b739" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/Uni/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Uni/DB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Uni/RegisterForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Uni/RegisterForm.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,34 +56,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="form" value="4" />
-          <entry key="java" value="7" />
+          <entry key="java" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="GUI_DESIGNER_FORM" value="4" />
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="216" />
+          <entry key="java" value="449" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="216" />
+          <entry key="JAVA" value="449" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Uni/StudentUI.form">
-          <provider selected="true" editor-type-id="ui-designer" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Uni/Login.form">
           <provider selected="true" editor-type-id="ui-designer" />
@@ -147,11 +145,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/Uni/RegisterForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="170">
+              <caret line="55" column="77" selection-start-line="55" selection-start-column="77" selection-end-line="55" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,10 +157,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Uni/DB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="70" column="13" lean-forward="true" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Uni/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
+            <state relative-caret-position="623">
               <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -180,6 +190,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>this</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -195,15 +210,15 @@
         <option value="$PROJECT_DIR$/src/com/Uni/LecturerUI.form" />
         <option value="$PROJECT_DIR$/src/com/Uni/StudentUI.form" />
         <option value="$PROJECT_DIR$/src/com/Uni/Login.form" />
-        <option value="$PROJECT_DIR$/src/com/Uni/DB.java" />
         <option value="$PROJECT_DIR$/src/com/Uni/StudentUI.java" />
         <option value="$PROJECT_DIR$/src/com/Uni/Home.java" />
         <option value="$PROJECT_DIR$/src/com/Uni/StudentProfileUI.form" />
         <option value="$PROJECT_DIR$/src/com/Uni/StudentProfileUI.java" />
         <option value="$PROJECT_DIR$/src/com/Uni/RegisterForm.form" />
         <option value="$PROJECT_DIR$/src/com/Uni/signUpObj.java" />
-        <option value="$PROJECT_DIR$/src/com/Uni/RegisterForm.java" />
         <option value="$PROJECT_DIR$/src/com/Uni/Login.java" />
+        <option value="$PROJECT_DIR$/src/com/Uni/DB.java" />
+        <option value="$PROJECT_DIR$/src/com/Uni/RegisterForm.java" />
       </list>
     </option>
   </component>
@@ -265,7 +280,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580492858278" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580494748964" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -335,7 +350,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32340425" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32340425" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -432,16 +447,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/Uni/Home.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Uni/DB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Uni/StudentUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -491,20 +496,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Uni/RegisterForm.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Uni/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="623">
+          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Uni/Login.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Uni/DB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        <state relative-caret-position="319">
+          <caret line="70" column="13" lean-forward="true" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Uni/RegisterForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="55" column="77" selection-start-line="55" selection-start-column="77" selection-end-line="55" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,5 +1,7 @@
 package com.Uni;
 
+import sun.rmi.runtime.Log;
+
 import javax.swing.*;
 import java.sql.*;
 
@@ -60,7 +62,7 @@ public class DB {
             Connection connection=null;
             connection=obj_DB_Connection.get_connection();
             PreparedStatement ps=null;
-            String query="INSERT INTO user (id, username, password, type) VALUES (NULL, '"+o.getUsername()+"', '"+o.getPassword()+"', '0');";
+            String query="INSERT INTO user (id, username, password, type) VALUES (NULL, '"+o.getUsername()+"', '"+o.getPassword()+"', '"+o.getRoll()+"');";
             try {
                 ps=connection.prepareStatement(query);
                 ps.execute();
@@ -77,6 +79,7 @@ public class DB {
         }else{
             //set msg
             JOptionPane.showMessageDialog(null, "This user already availabale, Please login");
+            Login login = new Login();
             return state;
         }
 

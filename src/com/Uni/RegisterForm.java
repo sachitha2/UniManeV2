@@ -46,20 +46,34 @@ public class RegisterForm extends JFrame{
 
                 System.out.println("Selected list item"+list1.getSelectedIndex());
 
-
-                if(pass.getText().equals(pass2.getText())){
-
-                    System.out.println("password match");
-
-                    signUpObj o = new signUpObj(uName.getText(),pass.getText(),list1.getSelectedIndex()+1);
-
-                    int states = obj_DB_Connection.signUp(o);
-
-                    frame.setVisible(false);
-
-                }else {
-                    JOptionPane.showMessageDialog(null, "Password does not match");
+                if(uName.getText().isEmpty()){
+                    JOptionPane.showMessageDialog(null, "Enter a Username");
+                }else if(pass.getText().isEmpty()){
+                    JOptionPane.showMessageDialog(null, "Enter password");
+                }else if(pass2.getText().isEmpty()){
+                    JOptionPane.showMessageDialog(null, "Enter Re Type password");
+                }else if(list1.getSelectedIndex() == -1){
+                    JOptionPane.showMessageDialog(null, "Please Select a Roll");
                 }
+
+                else{
+                    if(pass.getText().equals(pass2.getText())){
+
+                        System.out.println("password match");
+
+                        signUpObj o = new signUpObj(uName.getText(),pass.getText(),list1.getSelectedIndex()+1);
+
+                        int states = obj_DB_Connection.signUp(o);
+
+                        frame.setVisible(false);
+
+                    }else {
+                        JOptionPane.showMessageDialog(null, "Password does not match");
+                    }
+                }
+
+
+
             }
         });
     }
