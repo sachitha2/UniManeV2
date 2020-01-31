@@ -51,7 +51,7 @@ public class RegisterForm extends JFrame{
 
                     System.out.println("password match");
 
-                    signUpObj o = new signUpObj(uName.getText(),pass.getText());
+                    signUpObj o = new signUpObj(uName.getText(),pass.getText(),list1.getSelectedIndex()+1);
 
                     int states = obj_DB_Connection.signUp(o);
 

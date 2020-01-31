@@ -2,13 +2,24 @@ package com.Uni;
 
 public class signUpObj {
 
-    public signUpObj(String username, String password) {
+    public signUpObj(String username, String password,int roll) {
         this.username = username;
         this.password = password;
+        this.roll = roll;
     }
 
     private  String username;
     private String password;
+
+    public int getRoll() {
+        return roll;
+    }
+
+    public void setRoll(int roll) {
+        this.roll = roll;
+    }
+
+    private  int roll;
 
     public String getUsername() {
         return username;

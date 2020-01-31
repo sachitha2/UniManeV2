@@ -36,7 +36,7 @@ public class Login  extends JFrame{
             public void actionPerformed(ActionEvent e) {
 
 
-                signUpObj o = new signUpObj(uName.getText(),uPass.getText());
+                signUpObj o = new signUpObj(uName.getText(),uPass.getText(),0);
 
                 int s = obj_DB_Connection.checkLogin(o);
 
