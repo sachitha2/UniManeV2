@@ -42,7 +42,7 @@ public class Login  extends JFrame{
 
                 System.out.println(s);
                 if(s == 1){
-                    Home home = new Home();
+                    Home home = new Home(o);
                     frame.setVisible(false);
                 }else{
                     JOptionPane.showMessageDialog(null, "Your Username and Password incorrect");

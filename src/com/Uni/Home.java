@@ -11,7 +11,7 @@ public class Home {
     private JButton stdBtn;
 
 
-    Home(){
+    Home(signUpObj o){
         JFrame frame = new JFrame("Home");
         frame.setContentPane(this.panel1);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

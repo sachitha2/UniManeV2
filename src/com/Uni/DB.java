@@ -68,7 +68,7 @@ public class DB {
                 e.printStackTrace();
             }
 
-            Home home = new Home();
+            Home home = new Home(o);
             //register user end
 
 
@@ -81,43 +81,6 @@ public class DB {
         }
 
     }
-
-//    public int addStudent(Std std){
-//        DB obj_DB_Connection=new DB();
-//        Connection connection=null;
-//        connection=obj_DB_Connection.get_connection();
-//        PreparedStatement ps=null;
-//        String query="INSERT INTO student (id, name, username, password, age) VALUES (NULL, '"+std.getName()+"', '"+std.getUsername()+"', '"+std.getUsername()+"', '"+std.getAge()+"');";
-//        try {
-//            ps=connection.prepareStatement(query);
-//            ps.execute();
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        }
-//
-//
-//
-//        return 1;
-//    }
-
-//    public int addLecture(Lecturer lecturer){
-//        DB obj_DB_Connection=new DB();
-//        Connection connection=null;
-//        connection=obj_DB_Connection.get_connection();
-//        PreparedStatement ps=null;
-//        String query="INSERT INTO lecturer (id, name, username, password) VALUES (NULL, '"+lecturer.getName()+"', '"+lecturer.getUsername()+"', '"+lecturer.getPassword()+"');";
-//        try {
-//            ps=connection.prepareStatement(query);
-//            ps.execute();
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        }
-//
-//
-//
-//        return 1;
-//    }
-
 
     public Connection get_connection(){
         Connection connection=null;
